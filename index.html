@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="calculator, hesap makinesi, meryem, yıldız ">
+    <meta name="description" content="calcultor, hesap makinesi"> 
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/calculator.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+
+    <header>
+        <h1>CALCULATOR</h1>
+    </header>
+    
+    <aside>
+    <div id="calculator_div">
+        
+
+
+        <table id="table">
+
+            <caption><div id="answer"></div></caption>
+            
+            <tr><td colspan="5"><input id="input" type="text"></td></tr>
+            
+            <tr>
+                <td><button id="exponentiation" class="dis">^</button></td> 
+                <td><button id="c_delete">C</button></td> 
+                <td><button id="delete"><span class="material-icons">backspace</span></button></td>
+                <td><button id="percent">％</button></td>
+                <td><button id="divison">÷</button></td>
+            
+            </tr>
+
+            <tr>
+                <td><button id="sqrt" class="dis">√</button></td>
+                <td><button class="number">7</button></td> 
+                <td><button class="number">8</button></td>
+                <td><button class="number">9</button></td>
+                <td><button id="multip">×</button></td>
+            
+            </tr>
+
+            <tr>
+                <td><button id="one_div" class="dis">⅟</button></td> 
+                <td><button class="number">4</button></td> 
+                <td><button class="number">5</button></td>
+                <td><button class="number">6</button></td>
+                <td><button id="subs">-</button></td>
+            
+            </tr>
+
+            <tr>
+                <td><button id="pi" class="dis">π</button></td> 
+                <td><button class="number">1</button></td> 
+                <td><button class="number">2</button></td>
+                <td><button class="number">3</button></td>
+                <td><button id="plus">+</td>
+            
+            </tr>
+            <tr>
+                <td><button id="log" class="dis">log</button></td>
+                <td><button id="expand"><span id="exp" class="material-icons">expand_circle_down</span></button></td> 
+                <td><button class="number">0</button></td>
+                <td><button id="comma">,</button></td>
+                <td><button id="equal">=</button></td>
+            
+            </tr>
+        </table>
+
+
+
+    </div>
+   
+    </aside>
+
+    <figure>
+    <div id="picture"><img width="100%"  src="pictures/background.jpg" > </div>
+    </figure>
+
+
+   
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="js/calculator.js"></script>
+    
+</body>
+</html>
